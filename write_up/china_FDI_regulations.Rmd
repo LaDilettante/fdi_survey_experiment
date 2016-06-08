@@ -1,0 +1,25 @@
+---
+title: "China FDI"
+author: "Anh Le"
+date: "June 7, 2016"
+output: html_document
+---
+
+[China classification of FDI firms](http://english.mofcom.gov.cn/aarticle/topic/bizchina/fdiinchina/200406/20040600233643.html)
+
+- In joint venture and Foreign-funded share-holding companies, more than 25% must belong to the foreign partner
+
+China approval process for inbound FDI:
+- https://www.uschamber.com/china%E2%80%99s-approval-process-inbound-foreign-direct-investment-impact-market-access-national-treatment
+- Need land use rights / environmental impact / zoning opinion from the local Development and Reform Commissions (DRC)
+- Proposal needs to include extensive information, including:
+  + project name, duration of operations, and basic information on the investors
+  + project construction scale, primary construction content and products, main tech and processes, target market, and anticipated number of staff
+  + project construction location, requirements for land, water, energy, and the amount of consumption of main raw materials
+  + environmental impact assessment
+  + prices for the public products or services involved
+  + total investment of the project, registered capital and the contribution of each party, form of capital contribution and financing plan
+
+Land in China:
+- 2006 Circular of the State Council on Intensifying Land Control gives back a lot of control over land to the center, establishing a bidding process to sell land [Barry Naughton writing about this circular](http://media.hoover.org/sites/default/files/documents/clm20bn.pdf)
+- Even with this bidding process, there seems to still be corruption by the local governments in selling land though [Reuter's 2014 report](http://www.reuters.com/article/us-china-corruption-land-idUSKBN0GG04020140816)

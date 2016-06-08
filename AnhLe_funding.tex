@@ -6,6 +6,7 @@
 \usepackage{amsfonts}              % for blackboard bold, etc
 \usepackage{amsthm}                % better theorem environments
 
+\usepackage{pbox}
 \usepackage{rotating} % for sideway table
 \usepackage{xcolor}
 \usepackage{hyperref}
@@ -55,7 +56,7 @@ I hypothesize that officials want FDI for two competing reasons: 1) the bribes t
 
 To investigate whether an official's time horizon changes their preference for corrupt vs high-quality FDI, I need to 1) measure their time horizon, and 2) measure their preference for corrupt FDI.
 
-I will complete both task with a survey module of Chinese local officials, included in the \textit{Creating Human Resource Systems and Enhancing Government Performance Survey}. The survey is conducted by Beijing University's Institute for Quantitative Methods in collaboration with local party and government offices. The respondents are prefecture-level officials from party and government offices that participate in policy and expenditure decisions.
+I will complete both task with a survey module of Chinese local officials, included in the Chinese Political Officials Survey (CPOS) around August or September 2016. It is the only large-scale cross-sectional elite survey in China. The Principal Investigator is Tianguang Meng (Tsinghua University). The CPOS will spatially sample 20 representative prefecture-level municipalities through spatial randomization, and interview 100 CCP officials in each city (2,000 in total). These officials work for governments and party organizations that participate in policy and expenditure decisions.
 
 \textbf{Measuring time horizon.} To measure time horizon, I check how close the official is to their mandated retirement age. The closer to the retirement, I expect the official to have shorter time horizon and more preference for corrupt FDI.
 
@@ -63,13 +64,45 @@ I will complete both task with a survey module of Chinese local officials, inclu
 
 To proxy for corrupt FDI, I use how much land the project will need. This is because FDI projects need to ask for land-use rights from local officials, a process that is highly susceptible to bribery \citep{USChamberofCommerce2012}. In addition, given the scarcity of land and the contentious nature of forced land acquisition for development, there is no reason for an official to favor a FDI project with large land requirement other than corruption \citep{AmnestyInternational2012}.
 
+Below I describe the survey experiment as it will be appear on the survey.
+
+\subsection{Survey experiment}
+
+\fbox{\parbox{\textwidth}{
+Two FDI projects want to enter your province. Please carefully read the following description of the projects. Then, please indicate which project you prefer.
+
+\begin{center}
+  \begin{tabular}{ c | c | c }
+    \hline
+     & Project 1 (Du an 1) & Project 2 (Du an 1) \\ \hline
+    Industry &  &  \\ \hline
+    Labor force &  &  \\ \hline
+    Capital &  &  \\ \hline
+    Land &  &  \\ \hline
+    Technology age &  &  \\ \hline
+    \hline
+  \end{tabular}
+\end{center}
+
+If you have to choose, which project do you prefer to grant investment license? Project 1 / Project 2}}
+
+The five dimensions will be given random values as follows: Industry (textile, electronics, automobile, consumer product), 
+Size of labor force, Capital, Land requirement, Technology age.
+
+If desired, it is possible to:
+\begin{itemize}
+\item adjust the design so that implausible hypotheticals will not appear (i.e. there should not be a high-tech company with very small capital).
+\item randomize the ordering of the characteristics between respondents to test for the ordering effect (i.e. knowing a firm's industry first changes how the respondent thinks about the other characteristics)
+\end{itemize}
+
+I am mainly interested in the ``average marginal component effect'' (AMCE) of \textit{land}, which is the marginal effect of \textit{land} on the likelihood of a project being preferred, averaged over the distribution of all the other components. This allows us to back-out what provincial officials truly want from a FDI project.
+
+
 \section{Implementation plan}
 
 The cost of one module in the survey is \$5,000, which I will share with Fengming Lu, a fellow PhD student in Political Science. Fengming is currently in China. He has contacted and acquired the consent of the survey's Principal Investigator.
 
-I will travel to Beijing this May in order to finalize the survey questions and the survey sample with the survey team. Depending on the permission of the survey team, I may also be able to travel along with the enumerators to interview Chinese prefecture officials.
-
-
+I will travel to Beijing this August in order to finalize the survey questions and the survey sample with the survey team. Depending on the permission of the survey team, I may also be able to travel along with the enumerators to interview Chinese prefecture officials. Given the rare opportunity to do an elite survey in China, it will be a valuable experience to learn how to conduct these researches.
 
 \clearpage
 \bibliographystyle{chicago}

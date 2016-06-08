@@ -13,10 +13,12 @@ dat = wb.download(
     indicator=['BX.KLT.DINV.CD.WD', 'BX.KLT.DINV.WD.GD.ZS'],
     country='CN', start=2005, end=2011)
 dat.reset_index(inplace=True)
+dat['year'] = pd.to_datetime(dat['year']) # key
 
 print ggplot(aes(x='year', y='BX.KLT.DINV.CD.WD'),
        data=dat) + \
-    geom_line() + theme_bw()
+    geom_line() + theme_bw() + \
+    scale_x_date(labels = date_format("%m - %Y"))
 
 cdat
 
